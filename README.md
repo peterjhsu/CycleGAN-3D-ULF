@@ -31,7 +31,33 @@ Note: This implementation has been tested with Python 3.10 and Cuda 11.8. Some a
 
 # Model Training / Fine-Tuning
 
+### Data Setup / Folder Structure
 
+The provided framework expects image input and output in the following folder structure:
+
+```
+├── ULF                     # Folder for first set of images (ULF in this example)
+│   ├── train/              # Can be train, val, or test
+│   │   ├── images/         # Contrast and/or Acquisition Direction 1
+│   │   ├── images2/        # Contrast and/or Acquisition Direction 2
+│   └── ├── .../            # Other images following 'images#' convention
+    
+├── HF                      # Folder for second set of images (HF in this example)
+│   ├── train/              # Can be train, val, or test
+│   │   ├── images/         # Contrast and/or Acquisition Direction 1
+│   │   ├── images2/        # Contrast and/or Acquisition Direction 2
+│   └── ├── .../            # Other images following 'images#' convention
+```
+For example, images, images2, and images3 folders could correspond to data from T1w axial, coronal, and sagittal directions.
+
+### Training The Model
+
+
+```
+python train.py
+```
+
+Some example training, validation, and testing scripts are provided in the scripts/ folder.
 
 ----------------
 
