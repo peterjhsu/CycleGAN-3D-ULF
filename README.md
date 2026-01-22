@@ -7,7 +7,7 @@ Hsu P, Marchetto E, Sodickson D, Johnson P and Veraart J \
 Meets Africa Workshop, 52-62 (2024)\
 
 
-![Example]()
+![Example](figures/fig1.png)
 
 ----------------
 
