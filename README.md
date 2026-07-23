@@ -28,6 +28,14 @@ Note: This implementation has been tested with Python 3.10 and Cuda 11.8. Some a
 
 ----------------
 
+# Model Weights
+
+1) Download the pretrained model weights from the following [Google Drive Folder](https://drive.google.com/drive/folders/1kHlbvCH5rl2KE5nuN8pb0SPoePsUu9ZE?usp=sharing)
+
+2) Save and extract the pretrain folder in the weights folder.
+
+----------------
+
 # Model Training / Fine-Tuning
 
 ### Data Setup / Folder Structure
