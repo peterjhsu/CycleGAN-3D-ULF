@@ -2,7 +2,7 @@
 
 This repository provides a PyTorch-based framework for enhancing ultra-low-field (ULF) MRI using a 3D CycleGAN [1] framework and Residual Vision Transformer (ResViT) [2] generator models. The goal is to translate ULF-MRI volumes into higher-quality images that approximate high-field (HF) MRI while preserving anatomical fidelity for the purpose of downstream brain volume analysis. We provide model pre-training weights from pubicly accessible datasets of low-field (M4Raw; 0.3T) [3] and high-field (HCP; 3T) [4] images as a starting point to then fine-tune on smaller sets of ULF-MRI data:
 
-[Advancing the Volumetric Analysis of Ultra-Low-Field Brain MRI Using Image-to-Image Translation]([https://link.springer.com/chapter/10.1007/978-3-031-79103-1_6](https://urldefense.com/v3/__http://doi.org/10.1002/mrm.70488__;!!Cs6gcNsejA!Cfl_FGqYusvOTYIz6z_-eRdaP4xHdZ7qioUAui_YkBCZLb4QIjPYj761kV11-F9SX6ue9CKJcfl39S6nLl4$)) \
+[Advancing the Volumetric Analysis of Ultra-Low-Field Brain MRI Using Image-to-Image Translation]((https://onlinelibrary.wiley.com/doi/10.1002/mrm.70488)) \
 Peter Hsu, Elisa Marchetto, Patricia Johnson and Jelle Veraart
 
 
@@ -62,7 +62,7 @@ Some example training, validation, and testing scripts are provided in the scrip
 
 # Citation Information
 If you use this code in a publication, please cite the following paper: \
-[Advancing the Volumetric Analysis of Ultra-Low-Field Brain MRI Using Image-to-Image Translation]([https://link.springer.com/chapter/10.1007/978-3-031-79103-1_6](https://urldefense.com/v3/__http://doi.org/10.1002/mrm.70488__;!!Cs6gcNsejA!Cfl_FGqYusvOTYIz6z_-eRdaP4xHdZ7qioUAui_YkBCZLb4QIjPYj761kV11-F9SX6ue9CKJcfl39S6nLl4$)) \
+[Advancing the Volumetric Analysis of Ultra-Low-Field Brain MRI Using Image-to-Image Translation]((https://onlinelibrary.wiley.com/doi/10.1002/mrm.70488)) \
 Peter Hsu, Elisa Marchetto, Patricia Johnson and Jelle Veraart
 
 Please note the Copyright information under the provided LICENSE. 
